@@ -7,7 +7,7 @@
 
 [build]
   base = "me-api-frontend"
-  publish = "me-api-frontend/dist"
+  publish = "dist"
   command = "npm run build"
   node_version = "20.19.0"
 
