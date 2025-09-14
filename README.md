@@ -4,8 +4,8 @@ A personal API playground showcasing my profile data, skills, and projects. This
 
 ## 🚀 Live Demo
 
-- **Frontend:** [Your Live Demo](https://your-demo-url.vercel.app) *(Update with your deployed URL)*
-- **API:** [Your API](https://your-api-url.herokuapp.com) *(Update with your deployed API URL)*
+- **Frontend:** [Your Live Demo](https://api-me.netlify.app/) 
+- **API:** [Your API](https://me-api-playground-v3mx.onrender.com) 
 
 ## 📋 Project Overview
 
