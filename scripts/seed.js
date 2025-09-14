@@ -82,9 +82,9 @@ const sampleProfile = {
     }
   ],
   links: {
-    github: "https://github.com/madhusudan",
-    linkedin: "https://linkedin.com/in/madhusudan-mahatha",
-    portfolio: "https://madhusudanmahatha14@gmail.com"
+    github: "https://github.com/msmahatha",
+    linkedin: "https://linkedin.com/in/msmahatha",
+    portfolio: "https://madhusudanmahatha1.netlify.app/"
   }
 };
 

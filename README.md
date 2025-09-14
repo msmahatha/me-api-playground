@@ -281,13 +281,14 @@ NODE_ENV=production
 
 ## Resume Link
 
-📄 **[View My Complete Resume](https://madhusudan-resume.dev)** *(Placeholder for resume link)*
+📄 **[View My Complete Portfolio](https://madhusudanmahatha1.netlify.app/)** 
 
 ## 📞 Contact
 
 - **GitHub:** [github.com/msmahatha](https://github.com/msmahatha)
 - **Email:** madhusudanmahatha14@gmail.com
-- **LinkedIn:** [linkedin.com/in/madhusudan-mahatha](https://linkedin.com/in/madhusudan-mahatha)
+- **LinkedIn:** [linkedin.com/in/msmahatha](https://linkedin.com/in/msmahatha)
+- **Portfolio:** [madhusudanmahatha1.netlify.app](https://madhusudanmahatha1.netlify.app/)
 
 ---
 
