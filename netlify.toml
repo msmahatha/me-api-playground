@@ -9,7 +9,7 @@
   base = "me-api-frontend"
   publish = "me-api-frontend/dist"
   command = "npm run build"
+  node_version = "20.19.0"
 
 [build.environment]
-  NODE_VERSION = "18"
   NPM_FLAGS = "--legacy-peer-deps"

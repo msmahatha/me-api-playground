@@ -9,6 +9,9 @@
     "dev": "node --watch index.js",
     "seed": "node scripts/seed.js"
   },
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "keywords": ["api", "express", "mongodb", "profile"],
   "author": "Madhusudan Mahatha",
   "license": "MIT",
