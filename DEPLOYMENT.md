@@ -27,7 +27,7 @@ NODE_ENV=production
 ### Step 4: Deploy
 - Click "Create Web Service"
 - Wait for deployment (5-10 minutes)
-- Your backend will be available at: `https://me-api-playground-backend.onrender.com`
+- Your backend is now live at: `https://me-api-playground-v3mx.onrender.com`
 
 ---
 
@@ -48,7 +48,7 @@ NODE_ENV=production
 ### Step 3: Set Environment Variables
 In Netlify dashboard → Site settings → Environment variables:
 ```
-VITE_API_URL=https://me-api-playground-backend.onrender.com
+VITE_API_URL=https://me-api-playground-v3mx.onrender.com
 ```
 
 ### Step 4: Deploy
@@ -62,7 +62,7 @@ VITE_API_URL=https://me-api-playground-backend.onrender.com
 
 ### Backend Health Check
 ```bash
-curl https://me-api-playground-backend.onrender.com/health
+curl https://me-api-playground-v3mx.onrender.com/health
 ```
 
 ### Frontend API Connection
@@ -97,6 +97,6 @@ Visit your Netlify URL and check:
 
 ## 🌐 Final URLs
 
-- **Backend API:** `https://me-api-playground-backend.onrender.com`
-- **Frontend App:** `https://your-site-name.netlify.app`
+- **Backend API:** `https://me-api-playground-v3mx.onrender.com` ✅ **DEPLOYED**
+- **Frontend App:** `https://your-site-name.netlify.app` (Deploy next)
 - **GitHub Repo:** `https://github.com/msmahatha/me-api-playground`
