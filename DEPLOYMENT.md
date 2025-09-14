@@ -44,7 +44,7 @@ NODE_ENV=production
    - **Base directory:** `me-api-frontend`
    - **Build command:** `npm run build`
    - **Publish directory:** `me-api-frontend/dist`
-   - **Node version:** `18.20.8` (automatically detected from .nvmrc)
+   - **Node version:** `18` (automatically detected from .nvmrc)
 
 ### Step 3: Set Environment Variables
 In Netlify dashboard → Site settings → Environment variables:
@@ -78,8 +78,8 @@ Visit your Netlify URL and check:
 
 ### Node.js Version Issues on Netlify
 If you encounter Node version errors:
-1. Check that `.nvmrc` file exists with `18.20.8`
-2. Verify `netlify.toml` has `NODE_VERSION = "18.20.8"`
+1. Check that `.nvmrc` file exists with `18`
+2. Verify `netlify.toml` has `NODE_VERSION = "18"`
 3. Clear Netlify cache and redeploy
 
 ### Build Failures
