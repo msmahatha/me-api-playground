@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import LoadingSpinner from './LoadingSpinner';
+import { API_BASE_URL } from '../config/api';
 
 const Projects = () => {
   const [projects, setProjects] = useState([]);
@@ -13,8 +14,8 @@ const Projects = () => {
       setIsSearching(!!skill);
       setLoading(true);
       const url = skill 
-        ? `http://localhost:3001/api/projects?skill=${encodeURIComponent(skill)}`
-        : 'http://localhost:3001/api/projects';
+        ? `${API_BASE_URL}/api/projects?skill=${encodeURIComponent(skill)}`
+        : `${API_BASE_URL}/api/projects`;
       
       const response = await fetch(url);
       if (!response.ok) {

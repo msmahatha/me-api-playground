@@ -1,0 +1,8 @@
+{
+  "name": "me-api-playground-backend",
+  "description": "Personal API playground backend with Express.js and MongoDB",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

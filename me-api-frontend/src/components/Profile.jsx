@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import LoadingSpinner from './LoadingSpinner';
+import { API_BASE_URL } from '../config/api';
 
 const Profile = () => {
   const [profile, setProfile] = useState(null);
@@ -9,7 +10,7 @@ const Profile = () => {
   useEffect(() => {
     const fetchProfile = async () => {
       try {
-        const response = await fetch('http://localhost:3001/api/profile');
+        const response = await fetch(`${API_BASE_URL}/api/profile`);
         if (!response.ok) {
           throw new Error('Failed to fetch profile');
         }
